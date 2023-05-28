@@ -1,0 +1,76 @@
+:root {
+  --color-primary: #ff42ae;
+}
+
+body {
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: var(--color-primary);
+  font-family: monserrat;
+}
+
+h1,
+p {
+  color: var(--color-primary);
+}
+
+p {
+  margin-top: 0;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  align-items: center;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  border-radius: 5px;
+  height: 25px;
+  border: 0.1em solid rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  outline: none;
+  color: #444444;
+  padding-left: 15px;
+}
+
+form i.heart {
+  color: red;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form i.heart span {
+  color: white;
+  position: absolute;
+  font-size: 18px;
+}
+
+form button {
+  width: 100%;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+}
+
+#statement {
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+}
